@@ -2544,6 +2544,7 @@ public class ChatActivityEnterView extends FrameLayout implements NotificationCe
         };
         sendButton.setVisibility(INVISIBLE);
         int color = Theme.getColor(Theme.key_chat_messagePanelSend);
+        sendButton.setId(R.id.send);
         sendButton.setContentDescription(LocaleController.getString("Send", R.string.Send));
         sendButton.setSoundEffectsEnabled(false);
         sendButton.setScaleX(0.1f);

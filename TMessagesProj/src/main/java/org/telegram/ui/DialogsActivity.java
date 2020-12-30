@@ -1844,6 +1844,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         });
         searchItem.setClearsTextOnSearchCollapse(false);
         searchItem.setSearchFieldHint(LocaleController.getString("Search", R.string.Search));
+        searchItem.setId(R.id.search);
         searchItem.setContentDescription(LocaleController.getString("Search", R.string.Search));
         if (onlySelect) {
             actionBar.setBackButtonImage(R.drawable.ic_ab_back);
