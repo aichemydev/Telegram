@@ -178,6 +178,7 @@
     <string name="CompatibilityChat">%1$s is using an older version of Telegram, so secret photos will be shown in compatibility mode.\n\nOnce %2$s updates Telegram, photos with timers for 1 minute or less will start working in \'Tap and hold to view\' mode, and you will be notified whenever the other party takes a screenshot.</string>
     <string name="SearchMessages">Messages</string>
     <string name="Search">Search</string>
+    <string name="CouldNotSearch">CouldNotSearch</string>
     <string name="MuteNotifications">Mute notifications</string>
     <string name="MuteFor">Mute for %1$s</string>
     <string name="UnmuteNotifications">Unmute</string>
@@ -2820,6 +2821,7 @@
     <string name="Add">Add</string>
     <string name="Edit">Edit</string>
     <string name="Send">Send</string>
+    <string name="CouldNotSend">CouldNotSend</string>
     <string name="Call">Call</string>
     <string name="VideoCall">Video Call</string>
     <string name="Copy">Copy</string>

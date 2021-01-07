@@ -2544,11 +2544,11 @@ public class ChatActivityEnterView extends FrameLayout implements NotificationCe
         };
         sendButton.setVisibility(INVISIBLE);
         int color = Theme.getColor(Theme.key_chat_messagePanelSend);
-        sendButton.setId(R.id.send);
-        sendButton.setContentDescription(LocaleController.getString("Send", R.string.Send));
+        sendButton.setId(R.id.send123);
+        sendButton.setContentDescription(LocaleController.getString("CouldNotSend", R.string.CouldNotSend));
         sendButton.setSoundEffectsEnabled(false);
-        sendButton.setScaleX(0.1f);
-        sendButton.setScaleY(0.1f);
+        sendButton.setScaleX(0.2f);
+        sendButton.setScaleY(0.2f);
         sendButton.setAlpha(0.0f);
         if (Build.VERSION.SDK_INT >= 21) {
             sendButton.setBackgroundDrawable(Theme.createSelectorDrawable(Color.argb(24, Color.red(color), Color.green(color), Color.blue(color)), 1));

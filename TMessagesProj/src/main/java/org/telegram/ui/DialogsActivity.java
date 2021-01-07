@@ -1748,7 +1748,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             updatePasscodeButton();
             updateProxyButton(false);
         }
-        searchItem = menu.addItem(0, R.drawable.ic_ab_search).setIsSearchField(true, true).setActionBarMenuItemSearchListener(new ActionBarMenuItem.ActionBarMenuItemSearchListener() {
+        searchItem = menu.addItem(0, R.drawable.account_add).setIsSearchField(true, true).setActionBarMenuItemSearchListener(new ActionBarMenuItem.ActionBarMenuItemSearchListener() {
             @Override
             public void onSearchExpand() {
                 searching = true;
@@ -1843,8 +1843,12 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
             }
         });
         searchItem.setClearsTextOnSearchCollapse(false);
-        searchItem.setSearchFieldHint(LocaleController.getString("Search", R.string.Search));
-        searchItem.setId(R.id.search);
+        searchItem.setSearchFieldHint(LocaleController.getString("CouldNotSearch", R.string.CouldNotSearch));
+        searchItem.setId(R.id.search123);
+//        searchItem.setAdditionalYOffset(-500);
+//        searchItem.setAdditionalXOffset(-500);
+//        searchItem.setMenuYOffset(100);
+        searchItem.setPadding(0,0,100,0);
         searchItem.setContentDescription(LocaleController.getString("Search", R.string.Search));
         if (onlySelect) {
             actionBar.setBackButtonImage(R.drawable.ic_ab_back);
