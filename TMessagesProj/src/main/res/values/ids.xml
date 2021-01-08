@@ -30,7 +30,7 @@
     <item name="passcode_btn_backspace" type="id"/>
     <item name="passcode_btn_done" type="id"/>
 
-    <item name="search123" type="id"/>
+    <item name="find" type="id"/>
     <item name="send123" type="id"/>
 
 </resources>
