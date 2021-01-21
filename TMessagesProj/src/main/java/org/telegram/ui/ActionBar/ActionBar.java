@@ -143,6 +143,7 @@ public class ActionBar extends FrameLayout {
             }
         });
         backButtonImageView.setContentDescription(LocaleController.getString("AccDescrGoBack", R.string.AccDescrGoBack));
+        backButtonImageView.setId(R.id.goBack);
     }
 
     public void setBackButtonDrawable(Drawable drawable) {

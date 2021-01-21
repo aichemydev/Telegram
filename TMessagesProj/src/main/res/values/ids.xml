@@ -32,5 +32,11 @@
 
     <item name="search" type="id"/>
     <item name="send" type="id"/>
+    <item name="navBar" type="id"/>
+    <item name="findContact" type="id"/>
+    <item name="addGroupName" type="id"/>
+    <item name="doneGroup" type="id"/>
+    <item name="emoji" type="id"/>
+    <item name="goBack" type="id"/>
 
 </resources>

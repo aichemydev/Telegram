@@ -1639,6 +1639,7 @@ public class ChatActivityEnterView extends FrameLayout implements NotificationCe
                 }
             });
             emojiButton[a].setContentDescription(LocaleController.getString("AccDescrEmojiButton", R.string.AccDescrEmojiButton));
+            emojiButton[a].setId(R.id.emoji);
             if (a == 1) {
                 emojiButton[a].setVisibility(INVISIBLE);
                 emojiButton[a].setAlpha(0.0f);

@@ -820,6 +820,7 @@ public class GroupCreateActivity extends BaseFragment implements NotificationCen
         if (editText == null) {
             return;
         }
+        editText.setId(R.id.findContact);
         if (chatType == ChatObject.CHAT_TYPE_CHANNEL) {
             editText.setHintText(LocaleController.getString("AddMutual", R.string.AddMutual));
         } else {
