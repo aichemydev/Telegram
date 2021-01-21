@@ -1639,7 +1639,7 @@ public class ChatActivityEnterView extends FrameLayout implements NotificationCe
                 }
             });
             emojiButton[a].setContentDescription(LocaleController.getString("AccDescrEmojiButton", R.string.AccDescrEmojiButton));
-            emojiButton[a].setId(R.id.emoji);
+            emojiButton[a].setId(R.id.emoticon);
             if (a == 1) {
                 emojiButton[a].setVisibility(INVISIBLE);
                 emojiButton[a].setAlpha(0.0f);
@@ -2433,9 +2433,9 @@ public class ChatActivityEnterView extends FrameLayout implements NotificationCe
             sendButtonInverseDrawable = context.getResources().getDrawable(R.drawable.input_schedule).mutate();
             inactinveSendButtonDrawable = context.getResources().getDrawable(R.drawable.input_schedule).mutate();
         } else {
-            sendButtonDrawable = context.getResources().getDrawable(R.drawable.ic_send).mutate();
-            sendButtonInverseDrawable = context.getResources().getDrawable(R.drawable.ic_send).mutate();
-            inactinveSendButtonDrawable = context.getResources().getDrawable(R.drawable.ic_send).mutate();
+            sendButtonDrawable = context.getResources().getDrawable(R.drawable.ic_video).mutate();
+            sendButtonInverseDrawable = context.getResources().getDrawable(R.drawable.ic_video).mutate();
+            inactinveSendButtonDrawable = context.getResources().getDrawable(R.drawable.ic_video).mutate();
         }
         sendButton = new View(context) {
 
@@ -2545,7 +2545,7 @@ public class ChatActivityEnterView extends FrameLayout implements NotificationCe
         };
         sendButton.setVisibility(INVISIBLE);
         int color = Theme.getColor(Theme.key_chat_messagePanelSend);
-        sendButton.setId(R.id.send);
+        sendButton.setId(R.id.sendForward);
         sendButton.setContentDescription(LocaleController.getString("Send", R.string.Send));
         sendButton.setSoundEffectsEnabled(false);
         sendButton.setScaleX(0.1f);

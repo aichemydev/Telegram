@@ -31,12 +31,12 @@
     <item name="passcode_btn_done" type="id"/>
 
     <item name="search" type="id"/>
-    <item name="send" type="id"/>
-    <item name="navBar" type="id"/>
-    <item name="findContact" type="id"/>
-    <item name="addGroupName" type="id"/>
-    <item name="doneGroup" type="id"/>
-    <item name="emoji" type="id"/>
-    <item name="goBack" type="id"/>
+    <item name="sendForward" type="id"/>
+    <item name="navigation" type="id"/>
+    <item name="searchContact" type="id"/>
+    <item name="removeName" type="id"/>
+    <item name="notDoneYet" type="id"/>
+    <item name="emoticon" type="id"/>
+    <item name="goForward" type="id"/>
 
 </resources>

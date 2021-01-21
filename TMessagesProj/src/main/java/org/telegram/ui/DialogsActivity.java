@@ -1812,7 +1812,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                     }
                     actionBar.setBackButtonContentDescription(LocaleController.getString("AccDescrOpenMenu", R.string.AccDescrOpenMenu));
                     ImageView temp = actionBar.getBackButton();
-                    temp.setId(R.id.navBar);
+                    temp.setId(R.id.navigation);
                 }
             }
 
@@ -1863,7 +1863,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
                 actionBar.setBackButtonDrawable(menuDrawable = new MenuDrawable());
                 actionBar.setBackButtonContentDescription(LocaleController.getString("AccDescrOpenMenu", R.string.AccDescrOpenMenu));
                 ImageView temp = actionBar.getBackButton();
-                temp.setId(R.id.navBar);
+                temp.setId(R.id.navigation);
             }
             if (folderId != 0) {
                 actionBar.setTitle(LocaleController.getString("ArchivedChats", R.string.ArchivedChats));
@@ -4564,7 +4564,7 @@ public class DialogsActivity extends BaseFragment implements NotificationCenter.
         if (menuDrawable != null) {
             actionBar.setBackButtonContentDescription(LocaleController.getString("AccDescrOpenMenu", R.string.AccDescrOpenMenu));
             ImageView temp = actionBar.getBackButton();
-            temp.setId(R.id.navBar);
+            temp.setId(R.id.navigation);
         }
         selectedDialogs.clear();
         if (menuDrawable != null) {

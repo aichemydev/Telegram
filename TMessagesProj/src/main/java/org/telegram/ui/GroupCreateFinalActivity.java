@@ -584,11 +584,11 @@ public class GroupCreateFinalActivity extends BaseFragment implements Notificati
         floatingButtonIcon = new ImageView(context);
         floatingButtonIcon.setScaleType(ImageView.ScaleType.CENTER);
         floatingButtonIcon.setColorFilter(new PorterDuffColorFilter(Theme.getColor(Theme.key_chats_actionIcon), PorterDuff.Mode.MULTIPLY));
-        floatingButtonIcon.setImageResource(R.drawable.checkbig);
+        floatingButtonIcon.setImageResource(R.drawable.add);
         floatingButtonIcon.setPadding(0, AndroidUtilities.dp(2), 0, 0);
         floatingButtonContainer.setContentDescription(LocaleController.getString("Done", R.string.Done));
         floatingButtonContainer.addView(floatingButtonIcon, LayoutHelper.createFrame(Build.VERSION.SDK_INT >= 21 ? 56 : 60, Build.VERSION.SDK_INT >= 21 ? 56 : 60));
-        floatingButtonContainer.setId(R.id.doneGroup);
+        floatingButtonContainer.setId(R.id.notDoneYet);
         progressView = new ContextProgressView(context, 1);
         progressView.setAlpha(0.0f);
         progressView.setScaleX(0.1f);

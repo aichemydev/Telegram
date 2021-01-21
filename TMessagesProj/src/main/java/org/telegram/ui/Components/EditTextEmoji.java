@@ -136,8 +136,8 @@ public class EditTextEmoji extends FrameLayout implements NotificationCenter.Not
                 EditTextEmoji.this.onLineCountChanged(oldLineCount, newLineCount);
             }
         };
-        editText.setId(R.id.addGroupName);
-        editText.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+        editText.setId(R.id.removeName);
+        editText.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 36);
         editText.setImeOptions(EditorInfo.IME_FLAG_NO_EXTRACT_UI);
         editText.setInputType(editText.getInputType() | InputType.TYPE_TEXT_FLAG_CAP_SENTENCES);
         editText.setMaxLines(4);
